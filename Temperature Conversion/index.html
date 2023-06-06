@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Conversion</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to Online Temperature Conversion</h2>
+        <div class="form-group">
+            <label for="quantity">Enter Quantity:</label>
+            <input type="text" id="quantity">
+        </div>
+        <div class="form-group">
+            <label for="from">From:</label>
+            <select id="from">
+                <option value="celsius">degree Celsius</option>
+                <option value="fahrenheit">degree Fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+                <option value="reamur">degree Réaumur</option>
+                <option value="rankine">degree Rankine</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="to">To:</label>
+            <select id="to">
+                <option value="celsius">degree Celsius</option>
+                <option value="fahrenheit">degree Fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+                <option value="reamur">degree Réaumur</option>
+                <option value="rankine">degree Rankine</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="button" value="Convert" onclick="convertTemperature()" class="convert-button">
+        </div>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
