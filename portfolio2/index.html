@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Haneesh's Portfolio</title>
+    <link rel="icon" href="titlebar_pic.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&displayswap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Haneesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is
+                <span class="purple">Haneesh</span> and
+                <div></div>I am a
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="portfolio_pic.jpg" alt="Image">
+            </div>
+        </section>
+        <hr>
+        <section id="about" class="thirdSection">
+            <h1>About</h1>
+            <p>
+                I am currently in my third year of pursuing a B.Tech degree in Computer Science and Engineering at Sri
+                Venkateswara Engineering College. Prior to that, I completed my intermediate education at Sri
+                Viswasanthi Junior College, where I achieved an impressive aggregate of 96%. In my 10th grade, I studied
+                at Ravindra Bharathi School and obtained a perfect 10 CGPA. I have developed proficiency in various
+                programming languages, including Python, Java, C, and MySQL. Additionally, I am skilled in web
+                development technologies such as HTML, CSS, JavaScript, and React. Currently, I am gaining practical
+                experience through an internship at "Easystepin IT Solutions Pvt. Limited." Outside of academics, I have
+                a deep passion for cooking, reading books, and occasionally writing. These hobbies provide me with
+                inspiration and relaxation. With my educational background and skills, I am poised for opportunities in
+                software development, web development, and data management.
+            </p>
+            <div class="resume">
+                <button class="certificate-btn" onclick="showCertificate('HANEESH .pdf')">Resume</button>
+            </div>
+
+        </section>
+        <hr>
+        <section id="education">
+            <h1 class="text-center">Education</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <div class="education-item" data-toggle="modal" data-target="#sscModal">
+                        <img src="tenth.png" alt="Secondary School" class="education-img">
+                        <div class="education-text">
+                            <h3>Secondary School</h3>
+                            <h4>RAVINDRA BHARATHI SCHOOL</h4>
+                            <p><span class="education-label">Year:</span> 2018</p>
+                            <p><span class="education-label">CGPA:</span>10.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="education-item" data-toggle="modal" data-target="#interModal">
+                        <img src="intermediate.png" alt="Intermediate" class="education-img">
+                        <div class="education-text">
+                            <h3>Intermediate</h3>
+                            <h4>SRI VISWASANTHI JUNIOR COLLEGE</h4>
+                            <p><span class="education-label">Year:</span> 2020</p>
+                            <p><span class="education-label">CGPA:</span>9.88</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="education-item" data-toggle="modal" data-target="#btechModal">
+                        <img src="btech.png" alt="B.Tech" class="education-img">
+                        <div class="education-text">
+                            <h3>B.Tech</h3>
+                            <h4>SRI VENKATESWARA ENGINEERING COLLEGE</h4>
+                            <p><span class="education-label">Batch:</span>2020-2024</p>
+                            <p><span class="education-label">Percentage:</span>82%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <hr>
+
+        <section id="skills" class="skills">
+            <h1>Skills</h1>
+            <div class="Skills-list">
+                <div class="skill">C-programming</div>
+                <div class="skill">Python</div>
+                <div class="skill">Java</div>
+                <div class="skill">MySQL</div>
+                <div class="skill">HTML,CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+
+            </div>
+        </section>
+        <hr>
+        <section id="certificates" class="certificatesSection">
+            <h1>Certificates</h1>
+            <div class="certificates-list">
+                <button class="certificate-btn" onclick="showCertificate('Azure Data Scientist Associate.pdf')">Azure
+                    Data Scientist Associate</button>
+                <button class="certificate-btn" onclick="showCertificate('Power BI Data Analyst Associate.pdf')">Power
+                    BI Data Analyst Associate</button>
+                <button class="certificate-btn" onclick="showCertificate('Wadhwani certificate .pdf')">Wadhwani
+                    certificate</button>
+                <button class="certificate-btn"
+                    onclick="showCertificate('Microsoft azure AI fundamentals .pdf')">Microsoft azure AI
+                    fundamentals</button>
+            </div>
+        </section>
+        <hr>
+        <section id="internship" class="internship">
+            <h1>Internship</h1>
+            <div class="Internship-list">
+                <p>
+                    Completed an 8-week virtual internship in Salesforce Platform, gaining hands-on experience in
+                    Salesforce
+                    Fundamentals, Organizational Setup, Relationship & Process Automation, Types of Flows & Security,
+                    Apex, Testing & Debugging, and API. Earned Super Badge certifications in Apex Specialist and Process
+                    Automation Specialist.
+                </p>
+                <button class="Internship-btn left" onclick="showCertificate('Salesforce.pdf')">Salesforce</button>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contact">
+                <a href="tel:+919392314311" style="color: white;">Contact: +919392314311</a>
+            </div>
+            <div class="email">
+                <a href="mailto:bungatavulahaneesh@gmail.com" style="color: white;">email:
+                    bungatavulahaneesh@gmail.com</a>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/haneesh-bungatavula" style="color: white;">LinkedIn Profile</a>
+            </div>
+            <div>
+                <a href="https://github.com/haneesh2003" style="color:white;">github</a>
+            </div>
+            <div class="copy-right">
+                © 2023 All rights reserved.
+            </div>
+        </footer>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

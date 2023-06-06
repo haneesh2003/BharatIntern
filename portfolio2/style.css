@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(29, 29, 139);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(175, 18, 18);
+}
+
+main hr {
+    border: 0;
+    background: red;
+    height: 1.2px;
+    margin: 40px 80px;
+}
+
+.left {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.firstSection div {
+    width: 31%;
+}
+
+.leftSection {
+    font-size: 40px;
+}
+
+.rightSection img {
+    width: 90%;
+}
+
+.purple {
+    color: red;
+}
+
+#element {
+    color: red;
+}
+
+
+/* Education Section */
+#education {
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  
+  #education h1 {
+    font-size: 1.6rem;
+    margin: 53px;
+  }
+  
+  #education .row {
+    margin-top:10px;
+  }
+  
+  #education .col-lg-4 {
+    margin-bottom: 50px;
+  }
+  
+  #education .education-item {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  #education .education-img {
+    width: 15%;
+  }
+  
+  #education .education-info {
+    display: flex;
+    flex-direction: column;
+  }
+  #education .education-info h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  #education .education-info h4 {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  #education .education-info p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  #education .education-label {
+    font-weight: bold;
+  }
+  
+  
+  
+
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.thirdSection h1 {
+    font-size: 1.6rem;
+    margin: 53px;
+}
+
+.thirdSection p {
+    margin: 20px 80px;
+    font-size: 1.2rem;
+}
+
+.thirdSection .resume {
+    margin-left: 79px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.thirdSection .resume .certificate-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(29, 29, 139);
+    color: white;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.certificatesSection {
+    max-width: 80vw;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.certificatesSection h1 {
+    font-size: 1.6rem;
+    margin: 53px;
+}
+
+.certificatesSection .certificates-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.certificatesSection .certificates-list .certificate-btn {
+    padding: 10px 20px;
+    background-color: rgb(29, 29, 139);
+    font-size: 0.9rem;
+    color: white;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.skills {
+    max-width: 80vw;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.skills h1 {
+    font-size: 1.6rem;
+    margin: 53px;
+}
+
+.skills .Skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.skills .Skills-list .skill {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color:black;
+    margin: 10px;
+    
+}
+
+.internship {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.internship h1 {
+    font-size: 1.6rem;
+    margin: 53px;
+}
+
+.internship .Internship-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.internship .Internship-list .Internship-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: rgb(29, 29, 139);
+    color: white;
+    margin: 19px;
+    margin-left: -980px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(29, 29, 139);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+footer .copy-right {
+    font-size: 12px;
+}
